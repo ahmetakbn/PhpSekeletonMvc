@@ -3,9 +3,9 @@
 namespace PhpSkeletonMvc\Core;
 
 /**
- * Boot application class. Separate url to values to the name of controller, name of method and parameters.
- * Includes controller, calls methods and sends parameter to method.
- * converts url = {controller name}/{method name}/{parameters}
+ * Boot application class. Separate url to values to the name of module, controller, method and parameters.
+ * Includes controller from module, calls methods and sends parameter to method.
+ * converts url = {module_name}/{controller name}/{method name}/{parameters}
  * 
  * @author Ahmet Akbana
  */
@@ -91,7 +91,7 @@ class Bootstrap{
 	
 	
 	/**
-	 * Includes controller, calls method and sends parameter from requested url. 
+	 * Includes controller class from module, calls method and sends parameter from requested url. 
 	 */
 	private function includeFromUrl()
 	{
@@ -122,7 +122,7 @@ class Bootstrap{
 	
 	
 	/**
-	 * Gets controller name, method name and parameters from url
+	 * Gets module name, controller name, method name and parameters from url
 	 */
 	private function readUrl()
 	{

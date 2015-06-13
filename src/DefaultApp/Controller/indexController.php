@@ -7,7 +7,7 @@ use PhpSkeletonMvc\Core\View;
 use PhpSkeletonMvc\Component\Redirect;
 
 /**
- * Default Controller. Contains index actions
+ * Default Controller. Contains index action
  * 
  * @author Ahmet Akbana
  */
