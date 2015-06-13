@@ -1,11 +1,11 @@
 # Php Skeleton Mvc
 PhpSkeletonMvc is a very simple PHP framework. You can use the skeleton and create your own framework logic by changing it. It is very easy to change the logic of framework. After reading the documentation of coding, you will be able to change the framework.
 
-*PHP 5.3
-*psr-0 Autoload Standards
-*Suitable For Additional Libraries By Composer
-*Module System
-*MVC Pattern
+1.PHP 5.3
+2.psr-0 Autoload Standards
+3.Suitable For Additional Libraries By Composer
+4.Module System
+5.MVC Pattern
 
 # Installation
 
