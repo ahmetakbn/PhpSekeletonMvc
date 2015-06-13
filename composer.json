@@ -1,0 +1,25 @@
+{
+    "name": "defaultapp",
+    "description": "defaultapp",
+    "authors": [
+        {
+            "name": "Ahmet Akbana",
+            "email": "ahmetakbana@gmail.com"
+        }
+    ],
+
+    "config": {
+        "bin-dir": "bin"
+    },
+
+    "autoload": {
+        "psr-0": {
+            "": "src/"
+        }
+    },
+
+    "require": {
+    },
+
+    "minimum-stability": "dev"
+}
