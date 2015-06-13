@@ -13,9 +13,9 @@ Clone this project into your server.
 
 Now tell the composer to download autolading files. 
 
-
+    ```json
 	$ php composer.phar update
-
+    ```
 
 Set the defaults of application from `app/config.php` file.
 
